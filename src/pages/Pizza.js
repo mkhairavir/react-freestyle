@@ -17,9 +17,9 @@ const Pizza = () => {
 
     return(
         <div>
-            <h3>pizza</h3>
+            <h3>Pizza (100k)</h3>
             <span>Jumlah pizza yang dipesan: </span><br />
-            <button onClick={handleAdd}>Tambah</button><span>{pizzaState.count}</span><button onClick={handleMin}>Kurang</button>
+            <button onClick={handleAdd} className="btn btn-success" >Tambah</button><span style={{padding:"0 10px", border:"1px solid black", margin:"0 10px", borderRadius:"5px"}}>{pizzaState.count}</span><button onClick={handleMin} className="btn btn-danger">Kurang</button>
         </div>
     )
 }

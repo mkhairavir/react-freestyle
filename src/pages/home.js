@@ -6,7 +6,7 @@ const Home = () => {
         <div>
             <Jumbotron>
                 <Container>
-                <h1>ini Home</h1>
+                <h1 className="text-center">ini Home</h1>
                 </Container>
             </Jumbotron>
         </div>
